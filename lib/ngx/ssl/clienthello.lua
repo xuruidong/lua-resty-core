@@ -133,7 +133,7 @@ end
 -- tls.handshake.extension.type supported_version
 local supported_versions_type = 43
 local versions_map = {
-    [0x002] = "SSLv2",
+  [0x002] = "SSLv2",
     [0x300] = "SSLv3",
     [0x301] = "TLSv1",
     [0x302] = "TLSv1.1",
